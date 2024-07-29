@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 8px 8px 0 0;
+    background: rgb(172, 189, 236);
+    box-shadow: 2px 2px 8px rgba(59, 64, 220, 0.792);
+ 
+}
+
+.result{
+    background-color: #b5a5f3;
+    color: rgb(244, 3, 3);
+    border-radius: 8px 8px 0 0;
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+}
+
+
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1px; 
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    gap: 1px;
+}
+
+.row button{
+    width: 75px;
+    height: 75px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+    transition: all 200ms ease; 
+} 
+
+.row button:hover{
+    background-color: #f5a8d6;
+}
+
+.row button:active{
+    background-color: #a99ff3;
+}
+
+#equal{
+    width: 150px;
+}
+
+#dot{
+    font-weight: 600;
+}
+
+.container button#clear {
+    background-color: #d615a9;
+    color: #000000;
+}
+
+.container button#delete {
+    background-color: #d76dbe;
+    color: #000000;
+}
+
+.container button#equal {
+    background-color: #d76dbe;
+    color: #000000;
+}
+
